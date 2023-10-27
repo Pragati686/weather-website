@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url('https://thumbs.dreamstime.com/b/beautiful-autumn-tree-fallen-dry-leaves-scenery-sunshine-43709536.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+   background-color:wheat;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#weather-info {
+    display: none;
+    margin-top: 20px;
+}
